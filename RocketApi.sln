@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RocketApi", "RocketApi\RocketApi.csproj", "{D0A39DAC-DA69-411F-8822-DB9F0DEA3316}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{94273745-71B8-47E3-98C0-AD5EF2246F42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0A39DAC-DA69-411F-8822-DB9F0DEA3316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A39DAC-DA69-411F-8822-DB9F0DEA3316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A39DAC-DA69-411F-8822-DB9F0DEA3316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A39DAC-DA69-411F-8822-DB9F0DEA3316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94273745-71B8-47E3-98C0-AD5EF2246F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94273745-71B8-47E3-98C0-AD5EF2246F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94273745-71B8-47E3-98C0-AD5EF2246F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94273745-71B8-47E3-98C0-AD5EF2246F42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89100DF6-A13C-4BA0-8761-F6F1BDF72C48}
+	EndGlobalSection
+EndGlobal

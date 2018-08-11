@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  rocketapi:
+    image: ${DOCKER_REGISTRY}rocketapi
+    build:
+      context: .
+      dockerfile: RocketApi\Dockerfile
